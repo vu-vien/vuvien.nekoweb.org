@@ -1,0 +1,330 @@
+
+.topbar {
+	background-color: rgba(255,255,255,0.075);
+	z-index: 20;
+	display: block;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 0px 0px 20px 20px;
+    border-block-end: 2.5px solid rgba(255,255,255,0.075);
+}
+
+@import "tailwindcss";
+@font-face { font-family: spacemono; src: url('spacemono-regular.ttf'); }
+@font-face { font-family:spacemono-bold; src: url('spacemono-bold.ttf'); }
+@font-face { font-family:medocia; src: url('medocia.otf'); }
+html {
+	scroll-behavior: smooth;
+}
+.btn {
+ font-size:125%;
+ font-family: spacemono;
+ display: block;
+ margin-right: auto;
+ margin-left: auto;
+ background-color:inherit;
+ padding: 14px 40px;
+ color: #00be91;
+ cursor: pointer;
+ border-radius: 10px;
+ border: 2px solid rgba(0, 190, 145, 1);
+ box-shadow: rgba(0, 190, 145, 0) 0px 2px 5px -1px, rgba(0, 190, 145, 0) 0px 1px 3px -1px;
+ transition: .2s;
+backdrop-filter: blur(7px);
+-webkit-backdrop-filter: blur(7px);
+}
+
+.btn span:last-child {
+ display: none;
+}
+
+.btn:hover {
+ transition: .2s;
+ border: 10px solid rgba(0,0,0,0);
+ background-color: inherit;
+ color: #00be91;
+box-shadow: rgba(0, 190, 145, 1) 0px 2px 20px -1px, rgba(255, 255, 255, 1) 0px 0px 20px -1px;
+ 
+}
+
+.btn:active {
+ background-color: #000000;
+}
+
+.btn2 {
+ font-family: spacemono-bold;
+ font-size:120%;
+ display: block;
+ margin-right: auto;
+ margin-left: auto;
+ width:40%;
+ max-width: 90%;
+ background-color:inherit;
+ padding: 14px 40px;
+ color: #00be91;
+ cursor: pointer;
+ border-radius: 5px;
+ border: 2px solid #00be91;
+ box-shadow: rgba(0, 190, 145, 0) 0px 2px 5px -1px, rgba(0, 0, 0, 0) 0px 1px 3px -1px;
+ transition: .4s;
+}
+
+.btn2 span:last-child {
+ display: none;
+}
+
+.btn2:hover {
+ transition: .4s;
+ border: 2px dashed #00be91;
+ background-color: #00be91;
+ color: #000000;
+box-shadow: rgba(0, 190, 145, 1) 0px 2px 20px -1px, rgba(255, 255, 255, 1) 0px 1px 3px -1px;
+ 
+}
+
+.btn2:active {
+ background-color: #00be91;
+}
+
+body {
+  margin: 0px;
+  font-family: spacemono;
+  background: url('bg.jpg');
+  background-color:#000000 ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@-webkit-keyframes rotating /* rotating background */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 30s linear infinite;
+  -moz-animation: rotating 30s linear infinite;
+  -ms-animation: rotating 30s linear infinite;
+  -o-animation: rotating 30s linear infinite;
+  animation: rotating 30s linear infinite;
+}
+.bg-img {
+	z-index: -1;
+}
+div.a {
+	z-index: 1;
+.end {
+ color:#000000;
+ text-align: center;
+}
+.top-icon {
+	display: block;
+	position: fixed
+	width: 20px;
+	height: 20px;
+}
+/* scrollbar customize */
+body {
+	scrollbar-color: red;
+	scrollbar-width: 10px;
+}
+.modal-container {
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.lol:hover {
+ transition: .0.05s;
+ border: 2px dashed #00be91;
+ background-color: #00be91;
+ color: #000000;
+box-shadow: rgba(0, 190, 145, 1) 0px 2px 50px -1px, rgba(255, 255, 255, 1) 0px 0px 50px -1px;
+ 
+}
+
+.lol:active {
+ background-color: #00be91;
+}
+/* Makes the tap highlight invisible for all elements */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+a {
+	color:cyan;
+}
+iframe {
+    overflow: scroll;
+}
+.box1 {
+	visibility: hidden;
+	border: 2px solid rgba(255,255,255,0.5);
+}
+.pattern {
+	opacity:0.25;
+}
+
+::-webkit-scrollbar {
+	background-color: inherit;
+}
+::-webkit-scrollbar-track {
+	background-color: rgba(255,255,255,0.25);
+	opacity: 0.5;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #00be91;
+}
+.firefox {
+	scrollbar-color: #00be91 #000000;
+}
+.clickable {
+  cursor: pointer;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.clickable:active {
+  transform: scale(0.8);
+}
+.clickable:hover {
+  transform: scale(1.05);
+}
+
+hr {
+border: 2px dashed rgba(255,255,255,0.25);
+margin: 20px;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: rgba(255,255,255,0.05);
+  border-radius: 7px;
+  font-family: spacemono;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+font-family: spacemono;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: #00be91;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #bf5ffa;
+  color: #ffffff;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #00be91;
+  color: #000000;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  border-top: none;
+}
+summary {
+	color:#000000;
+	line-height: 40px;
+	background-color: rgba(255,255,255,0.05);
+	padding: 5px 5px;
+	border: 2px solid rgba(255,255,255,0.15);
+	transition: 0.4s;
+	margin:5px 0px;
+	border-radius: 7px;
+}
+summary:active {
+	color: #000000;
+	background-color:#00be91;
+}
+summary:hover {
+	color: #000000;
+	background-color:#00be91;
+}
+summary::marker {
+	content:'[>] ';
+}
+details[open] summary::marker {
+	content:'[×] ';
+}
+.button4 {
+	font-family: spacemono;
+	position: relative;
+	padding: 15px 75px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	top: 10px;
+	border-radius: 7px;
+	background-color: inherit;
+	border: 3px solid #00be91;
+	color:#00be91;
+	transition: 0.2s;
+}
+.button4:hover {
+	background-color: #00be91;
+	color:#000000;
+}
+.whitemark {
+	background-color:rgba(0,0,0,0.5);
+	border-radius: 10px;
+	padding: 10px 10px;
+}
+.gradient {
+  background: linear-gradient(to right, #61ffda, #00be91);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient2 {
+  background: linear-gradient(to right, white, cyan);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient22 {
+  background: linear-gradient(to right, white, cyan);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.clock {
+	background-color: rgba(255,255,255,0.1);
+	border: 1.5px solid rgba(255,255,255,0.1);
+	border-radius: 7px;
+	padding:0px 4px;
+	color:#39db90;
+}

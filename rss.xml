@@ -1,0 +1,27 @@
+<rss version="2.0">
+    <channel>
+        <title>v blog post</title>
+        <description>my blog</description>
+        <link>https://vuvien.nekoweb.org/blog</link>
+        
+        <item>
+            <title class="t">Test</title>
+            <description class="d">Hello nekoweb</description>
+            <link>https://vuvien.nekoweb.org/blog</link>
+            <guid>post-1</guid>
+            <pubDate>Fri 12 Dec 2025, 08:54:00 -0500</pubDate>
+            <style>
+            .post-box .post-title{
+            	background-color: #00be91;
+            	font-family: SegoeUI;src: url('segoeuithis.ttf');
+            }
+                .t {
+                    color: #ffffff;
+                }
+            .d {
+            	color:#00be91;
+            }
+            </style>
+        </item>
+    </channel>
+</rss>
