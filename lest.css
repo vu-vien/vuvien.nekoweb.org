@@ -1,0 +1,94 @@
+/* display alignments */
+
+body {
+
+    font-size: 125%;
+    margin:50px;
+}
+/* button styling */
+.button0 {
+	width: 200px;
+	height: 50px;
+	background-color:#91bbff;
+	border: 2px solid #91bbff;
+	border-radius: 50px;
+	margin: 5px 5px;
+	font-size:90%;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.button0:hover {
+	border-radius: 10px;
+	background-color:inherit;
+	border: 0px solid white;
+	color:#91bbff;
+	scale: 1.1;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 10px 0px, rgba(0, 0, 0, 0.25) 0px 10px 10px -2px;
+}
+.button0:click {
+	scale:0.9;
+}
+.button1 {
+
+	width: 200px;
+	height: 50px;
+	background-color:#91bbff;
+	border: 2px solid #91bbff;
+	border-radius: 50px;
+	margin: 5px 5px;
+	font-size:90%;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.button1:hover {
+	border-radius: 10px;
+	background-color:inherit;
+	border: 0px solid white;
+	color:#91bbff;
+	scale: 1.1;
+}
+.button1:click {
+	scale:0.9;
+}
+
+.button2 {
+
+	width: 200px;
+	height: 50px;
+	background-color:#91bbff;
+	border: 2px solid #91bbff;
+	border-radius: 50px;
+	margin: 5px 5px;
+	font-size:90%;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.button2:hover {
+	border-radius: 10px;
+	border: 0px solid white;
+	scale: 1.1;
+}
+.button2:click {
+	scale:0.9;
+}
+.text-container {
+	background-color:rgba(145, 187, 255, 0.5);
+	padding: 10px 10px;
+	border-radius: 10px;
+	overflow: auto;
+}
+.top-header {
+	text-align: center;
+	background-color: #91bbff;
+	border-radius: 15px;
+	padding: 10px 10px;
+	overflow: auto;
+}
+.footer-box {
+text-align: center;
+	background-color: #91bbff;
+	border-radius: 15px;
+	padding: 10px 10px;
+	display:run-in;
+	bottom:0;
+}

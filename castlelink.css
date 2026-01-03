@@ -1,0 +1,157 @@
+
+@font-face { font-family:Basteleur-bold; src: url('Basteleur-Bold.ttf'); }
+@font-face { font-family:Basteleur-light; src: url('Basteleur-Moonlight.ttf'); }
+
+h1 {
+	font-family: Basteleur-Bold;
+}
+h2 {
+	font-family: Basteleur-Bold;
+}
+h3 {
+	font-family: Basteleur-light;
+}
+body {
+	margin: 30px;
+	color: white;
+	background-color: black;
+}
+button {
+	font-size: 125%;
+	padding: 12px 28px;
+	background-color:white;
+	border-radius: 8.5px;
+	cursor: pointer;
+    border: 1px solid rgba(0,0,0,0);
+    border-block-end: 4px solid grey;
+}
+button:hover {
+	opacity: 0.5;
+}
+@media screen and (width >= 775px) {
+	.btn2 {
+		max-width: 325px;
+	}
+}
+@media screen and (width >= 950px) {
+	.text {
+		margin: 90px;
+	}
+	.b2 {
+		margin-inline: 10px;
+		width:50%;
+	}
+	.flex {
+		display: flex;
+		justify-content: center;
+	}
+	.b1 {
+		margin-inline: 10px;
+		width: 50%;
+	}
+	.top-text {
+		max-width: 570px;
+		font-size: 275%;
+		margin: 100px 50px;
+		position: relative;
+		top: 50px;
+	}
+	.icons {
+transform: translate(-20px,-40px);
+scale: 1.2;
+	}
+	.cb {
+		width: 350px;
+		float: right;
+		position: relative;
+	}
+}
+
+@media screen and (width <= 950px) {
+	.top {
+		text-align: center;
+	}
+	.b2 {
+		margin-top:20px;
+	}
+}
+.top {
+	padding: 20px 20px;
+}
+.bottom {
+	text-align: center;
+	font-family: system;
+}
+.icons {
+	position: relative;
+	top:10px;
+}
+.cb {
+	width: 400px;
+	margin: 20px;
+}
+}
+
+.btn {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.b1 {
+	background-color:rgba(191,0,255,0.15);
+	border: 3px solid rgba(191,0,255,0.2);
+	border-radius: 9px;
+	padding: 10px 25px;
+	position: relative;
+}
+.b2 {
+	background-color:rgba(255,255,0,0.1);
+	border: 3px solid rgba(255,255,0,0.1);
+	border-radius: 9px;
+	padding: 10px 25px;
+	position: relative;
+}
+
+.text-box {
+	background-color:rgba(255,255,255,0.05);
+	border: 3px solid rgba(255,255,255,0.1);
+	border-radius: 9px;
+	padding: 5px 15px;
+	font-family: Monospace;
+	overflow: auto;
+	width: auto;
+}
+.spacing {
+	margin-inline: 10px;
+}
+.btn2 {
+	overflow: auto;
+	border-radius: 9px;
+	padding:20px 20px;
+	font-family: Basteleur-light;
+	background-color: rgba(255,255,255,0.05);
+	text-align: center;
+	border:3px solid white;
+	color: white;
+}
+.icons {
+    float: right;
+	width: 75px;
+	height: auto;
+	rotate: 25deg;
+    pointer-events: none;
+}
+.cb {
+	height: auto;
+    pointer-events: none;
+}
+.badge {
+	width: 88;
+	height: 31;
+	float: left;
+	margin-inline-end: 10px;
+}
+/* Makes the tap highlight invisible for all elements */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
