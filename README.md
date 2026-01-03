@@ -1,2 +1,3 @@
+![a](thumbnail.jpg)
 # vuvien.nekoweb.org
-My website
+My slop & random website
