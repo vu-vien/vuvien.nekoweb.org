@@ -1,4 +1,4 @@
 ![a](thumbnail.jpg)
 # vuvien.nekoweb.org
 My slop & random website
-Take a look around, it is not recommended for you to use this...If you liked the theme tell me, so i might make a framework!
+Take a look around, it is not recommended for you to use this
